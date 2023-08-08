@@ -8,14 +8,14 @@ int main()
     {
         scanf("%d", &a[i]);
     }
-    // Reverse Print
+    int x, v;
+    scanf("%d %d", &x, &v);
+    // printf("%d %d\n",x,v);
+    // int b[n];
+    a[x] = v;
     for (int i = n - 1; i >= 0; i--)
     {
-        // printf("%d ",a[i]);
-        if (i % 2 == 0)
-        {
-            printf("%d ", a[i]);
-        }
+        printf("%d ", a[i]);
     }
     return 0;
 }
